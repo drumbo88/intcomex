@@ -97,12 +97,12 @@ class ContactoModel extends Model {
         $letras = '';
         $cantLetras = 4;
         while ($cantLetras-- > 0)
-            $letras .= chr(65+rand(0,25));
+            $letras .= chr(65 + rand(0,25));
         
         $numeros = '';
         $cantNumeros = 4;
         while ($cantNumeros-- > 0)
-            $numeros .= rand(0,9);
+            $numeros .= rand(0, 9);
         
         $password = str_shuffle($numeros . $letras);
         
