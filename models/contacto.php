@@ -108,7 +108,7 @@ class ContactoModel extends Model {
         
         // Armado de registro
         $contacto = [
-            'codigo_cliente' => $infoUsuario,
+            'codigo_cliente' => $infoCodigo,
             'usuario' => $infoUsuario,
             'nombre' => $infoNombre,
             'cargo' => $infoCargo,
